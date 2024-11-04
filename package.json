@@ -1,0 +1,21 @@
+{
+  "name": "debnathenglishtutorials",
+  "version": "1.0.5",
+  "description": "This is a Education Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "built": "node ./node_modules/tailwindcss/lib/cli.js -i ./public/input.css -o ./public/output.css --watch"
+  },
+  "author": "Tapash Debnath",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
