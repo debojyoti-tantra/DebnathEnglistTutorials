@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DebnathEnglishTutorials</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
+</head>
+
+<body class="">
+    
+    <%- include ('navbar') %> 
+
+    <main>
+        <div class="m1 flex flex-col sm:flex-row justify-center items-center p-5 m-5 gap-3 bg-violet-600 rounded-lg">
+            <div class="logo flex justify-center items-center">
+                <img src="./logo.jpg" alt="logo" class="max-w-52 rounded-full">
+            </div>
+
+            <div class="text sm:text-4xl text-xl text-white">Learn English online and offline both. improve your skills through our
+                high-quality courses and resources.</div>
+        </div>
+
+        <div class="m2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
+            <div class="bg-white shadow-lg rounded-lg p-6 text-gray-800 flex flex-col justify-center items-center">
+                <p class="text-lg font-semibold mb-2">Class 9</p>
+                <p class="text-gray-600 mb-4">Offline classes are available</p>
+                <button
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition transform active:translate-y-1 duration-200">
+                    <a href="/class-9">Go To The Page</a>
+                </button>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg p-6 text-gray-800 flex flex-col justify-center items-center">
+                <p class="text-lg font-semibold mb-2">Class 10</p>
+                <p class="text-gray-600 mb-4">Offline classes are available</p>
+                <button
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition transform active:translate-y-1 duration-200">
+                    <a href="/class-10">Go To The Page</a>
+                </button>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg p-6 text-gray-800 flex flex-col justify-center items-center">
+                <p class="text-lg font-semibold mb-2">Class 11</p>
+                <p class="text-gray-600 mb-4">Offline classes are available</p>
+                <button
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition transform active:translate-y-1 duration-200">
+                    <a href="/class-11">Go To The Page</a>
+                </button>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg p-6 text-gray-800 flex flex-col justify-center items-center">
+                <p class="text-lg font-semibold mb-2">Class 12</p>
+                <p class="text-gray-600 mb-4">Offline classes are available</p>
+                <button
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition transform active:translate-y-1 duration-200">
+                    <a href="/class-12">Go To The Page</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="m3 p-5">
+            <img src="./poster.jpg" alt="poster" class="w-full">
+        </div>
+    </main>
+
+    <%- include ('footer') %>
+    
+</body>
+
+</html>
